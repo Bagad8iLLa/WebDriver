@@ -1,12 +1,10 @@
-package AssigementSelenium;
-
+package LectureMethodsExample;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-public class locationzomato {
+public class To9SetSize {
 public static void main(String[] args) {
 	WebDriver driver = new ChromeDriver();
-	driver.get("https://www.zomato.com/");
-	//driver.findElement(null)
+	driver.get("https://www.facebook.com/");
+	//driver.manage().window().setSize(newDimension(45,98));
 }
 }
