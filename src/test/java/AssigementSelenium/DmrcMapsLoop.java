@@ -37,7 +37,7 @@ public static void main(String[] args) throws IOException {
 	}
 	TakesScreenshot t =(TakesScreenshot)driver;
 	File src = t.getScreenshotAs(OutputType.FILE);
-	File dest = new File("./DMRCSS/dmrc.png");
+	File dest = new File("./Screenshot/dmrc.png");
 	Files.copy(src, dest);
 	
 }
